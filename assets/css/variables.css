@@ -1,0 +1,74 @@
+:root {
+  /* Couleurs Light Mode */
+  --bg-primary: #F3E7D9;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #544349;
+  --text-secondary: #6B5A5E;
+  --accent: #544349;
+  --border: #E8D5C4;
+  
+  --taupe-light: #8A7A7E;
+  --beige-dark: #E8D5C4;
+  
+  /* Typographie */
+  --font-title: 'Cormorant Garamond', serif;
+  --font-body: 'Lato', sans-serif;
+  
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 4rem;
+  
+  --font-light: 300;
+  --font-normal: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+  
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+  
+  /* Espacement */
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: var(--space-6);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  
+  /* Ombres */
+  --shadow-sm: 0 1px 2px rgba(84, 67, 73, 0.05);
+  --shadow-base: 0 4px 6px rgba(84, 67, 73, 0.1);
+  
+  /* Bordures */
+  --radius-sm: 4px;
+  --radius-base: 8px;
+  --radius-lg: 12px;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --bg-primary: #544349;
+  --bg-secondary: #6B5A5E;
+  --text-primary: #F3E7D9;
+  --text-secondary: #E8D5C4;
+  --accent: #F3E7D9;
+  --border: #6B5A5E;
+}
