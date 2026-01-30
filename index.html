@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acil, développeur front-end junior spécialisé React et JavaScript. Portfolio avec projets ArgentBank, Kasa, Sophie Bluel.">
+  
+  <title>Acil - Développeur Front-End React | Portfolio</title>
+  
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Importer mon css -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">ACIL</a>
+        <a href="#" class="logo">à propos</a>
+        <a href="#" class="logo">Projets</a>
+        <button class="btn-contact" aria-label="Me contacter">Contact</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Section Hero -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">ACIL</h1>
+          <p class="hero-subtitle">Développeur Front-End React</p>
+          <p class="hero-description">
+            Spécialisé dans la création d'interfaces web fluides et performantes
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- A propos et compétence -->
+    <section class="about-skills" id="about">
+      <div class="container">
+        <div class="about-skills-grid">
+          <!-- A propos -->
+          <div class="about">
+            <h2>À propos</h2>
+            <p>
+              Bonjour, je suis Acil, développeur front-end junior spécialisé 
+              dans la création d'interfaces web fluides et performantes.
+            </p>
+            <p>
+              Diplômé d'un Bac général (spé. Maths/SES), j'ai participé à la 
+              Piscine de 42 avant de me former via OpenClassrooms. Actuellement 
+              en alternance, je développe un site de vente de formations en 
+              conditions réelles.
+            </p>
+            <p>
+              Je maîtrise React, Redux, JavaScript ES6+, Sass et l'intégration 
+              d'API REST. Mon background créatif (photo, vidéo, 3D, motion design) 
+              me permet de dialoguer efficacement avec les designers et 
+              d'implémenter leurs visions avec précision.
+            </p>
+            <p>
+              Mon approche : analyser la maquette, créer une architecture de 
+              composants solide, puis coder. Je privilégie le minimalisme — 
+              un code épuré pour une UX performante.
+            </p>
+          </div>
+
+          <!-- Skills -->
+          <div class="skills">
+            <h2>Compétences</h2>
+            <ul class="skills-list">
+              <li>React</li>
+              <li>Redux Toolkit</li>
+              <li>JavaScript ES6+</li>
+              <li>HTML5 / CSS3</li>
+              <li>Sass</li>
+              <li>Git / GitHub</li>
+              <li>Vite</li>
+              <li>API REST</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>Projets</h2>
+        
+        <div class="projects-grid">
+          <!-- Projet 1: ArgentBank -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/projects/argentbank.jpg" alt="ArgentBank - Application bancaire React">
+            </div>
+            <div class="project-content">
+              <h3>ArgentBank</h3>
+              <p class="project-tags">React • Redux Toolkit • JWT • API REST</p>
+              <p class="project-description">
+                Application bancaire avec authentification sécurisée et dashboard 
+                utilisateur. Gestion d'état centralisée avec Redux Toolkit et 
+                routes protégées.
+              </p>
+              <p class="project-challenge">
+                <strong>Défi technique :</strong> Maîtrise de Redux Toolkit (slices, createAsyncThunk) 
+                et gestion des tokens JWT pour maintenir la session utilisateur.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn-link" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="btn-link" target="_blank" rel="noopener">Démo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 2: Kasa -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/projects/kasa.jpg" alt="Kasa - Application location immobilière">
+            </div>
+            <div class="project-content">
+              <h3>Kasa</h3>
+              <p class="project-tags">React • React Router • Sass</p>
+              <p class="project-description">
+                Application de location immobilière avec navigation dynamique, 
+                galerie photos interactive et composants réutilisables. 
+                Design responsive mobile-first.
+              </p>
+              <p class="project-challenge">
+                <strong>Défi technique :</strong> Création d'un composant Collapse avec 
+                animations CSS fluides from scratch, sans bibliothèque externe.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn-link" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="btn-link" target="_blank" rel="noopener">Démo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 3: Sophie Bluel -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/projects/sophie-bluel.jpg" alt="Sophie Bluel - Portfolio architecte">
+            </div>
+            <div class="project-content">
+              <h3>Sophie Bluel - Architecte</h3>
+              <p class="project-tags">JavaScript Vanilla • API REST • Manipulation DOM</p>
+              <p class="project-description">
+                Portfolio dynamique d'architecte avec interface d'administration 
+                complète. Galerie filtrable, upload d'images et gestion de projets 
+                sans framework.
+              </p>
+              <p class="project-challenge">
+                <strong>Défi technique :</strong> Modale d'administration from scratch 
+                avec navigation multi-vues, preview d'images et actualisation DOM sans rechargement.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn-link" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="btn-link" target="_blank" rel="noopener">Démo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a href="mailto:votre-email@example.com" class="contact-link">
+            <span>📧</span>
+            <span>Email</span>
+          </a>
+          <a href="https://github.com/votre-username" target="_blank" rel="noopener" class="contact-link">
+            <span>🔗</span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener" class="contact-link">
+            <span>💼</span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Acil - Développeur Front-End React</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
